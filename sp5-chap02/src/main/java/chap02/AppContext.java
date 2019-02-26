@@ -12,5 +12,4 @@ public class AppContext {
 		g.setFormat("%s, 안녕하세요!");
 		return g;
 	}
-
 }

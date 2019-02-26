@@ -11,8 +11,16 @@
 * Maven 3.6.0 & Gradle 5.2.1
 * Tomcat 8.5
 
-## 2. 초기설정
-
+## 2. 참고사항
 ~~~
+Maven 경로 설정
+export M3_HOME=[apache-maven 경로]
+export PATH=$PATH:$M3_HOME/bim
 
+Gradle 경로 설정
+export GRADLE_HOME=[gradle 경로]
+export PATH=$PATH:$GRADLE_HOME/bin
+
+Maven 원격 리포지토리에서 다운로드
+$ mvn compile (pom.xml 파일에 추가한 의존을 다운로드)
 ~~~

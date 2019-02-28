@@ -1,0 +1,15 @@
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/spring/MemberDao.java
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/spring/WrongIdPasswordException.java
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/spring/ChangePasswordService.java
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/spring/Member.java
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/main/MainForSpring.java
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/spring/MemberNotFoundException.java
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/spring/MemberRegisterService.java
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/spring/MemberPrinter.java
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/spring/MemberInfoPrinter.java
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/config/AppCtx.java
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/spring/MemberSummaryPrinter.java
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/spring/RegisterRequest.java
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/spring/VersionPrinter.java
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/spring/DuplicateMemberException.java
+/Users/kimyosub/eclipse-workspace/Spring/sp5-chap04/src/main/java/spring/MemberListPrinter.java

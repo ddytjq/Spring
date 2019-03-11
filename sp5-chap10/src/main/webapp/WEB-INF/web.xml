@@ -27,6 +27,7 @@
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 
+	<!--매핑 경로가 / 인경우 jsp를제외하고 모두 dispatcher가 처리 -->
 	<servlet-mapping>
 		<servlet-name>dispatcher</servlet-name>
 		<url-pattern>/</url-pattern>

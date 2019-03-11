@@ -17,8 +17,6 @@
 				org.springframework.web.context.support.AnnotationConfigWebApplicationContext
 			</param-value>
 		</init-param>
-		
-		<!-- 스프링 컨테이너 구현 -->
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
 			<param-value>

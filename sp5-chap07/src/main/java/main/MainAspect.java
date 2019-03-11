@@ -12,6 +12,7 @@ public class MainAspect {
 				new AnnotationConfigApplicationContext(AppCtx.class);
 
 		Calculator cal = ctx.getBean("calculator", Calculator.class);
+		// Calculator cal2 = (Calculator) ctx.getBean("calculator");
 		long fiveFact = cal.factorial(5);
 		System.out.println("cal.factorial(5) = " + fiveFact);
 		System.out.println(cal.getClass().getName());

@@ -14,8 +14,6 @@
 			<artifactId>spring-context</artifactId>
 			<version>5.0.2.RELEASE</version>
 		</dependency>
-		
-		<!-- AspectJ는 PARC에서 개발한 자바 프로그래밍 언어용 관점 지향 프로그래밍 (AOP) 확장 기능이다. -->
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjweaver</artifactId>

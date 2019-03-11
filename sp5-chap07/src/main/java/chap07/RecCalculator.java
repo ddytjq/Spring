@@ -1,5 +1,8 @@
 package chap07;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class RecCalculator implements Calculator {
 
 	@Override

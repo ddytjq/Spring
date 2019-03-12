@@ -1,12 +1,13 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
     <title>회원가입</title>
 </head>
 <body>
     <h2>회원 정보 입력</h2>
+    <!--
     <form:form action="step3" modelAttribute="registerRequest">
     <p>
         <label>이메일:<br>
@@ -30,8 +31,7 @@
     </p>
     <input type="submit" value="가입 완료">
     </form:form>
-
-<%--
+ -->
     <form action="step3" method="post">
     <p>
         <label>이메일:<br>
@@ -55,6 +55,6 @@
     </p>
     <input type="submit" value="가입 완료">
     </form>
- --%>
+ 
 </body>
 </html>

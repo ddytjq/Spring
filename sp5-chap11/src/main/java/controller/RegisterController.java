@@ -12,6 +12,7 @@ import spring.MemberRegisterService;
 import spring.RegisterRequest;
 
 @Controller
+//RequestMapping("register")
 public class RegisterController {
 
 	private MemberRegisterService memberRegisterService;
@@ -22,11 +23,13 @@ public class RegisterController {
 	}
 
 	@RequestMapping("/register/step1")
+	//@RequestMapping(value="step1", mequestMethod.POST)
 	public String handleStep1() {
 		return "register/step1";
 	}
 
 	@PostMapping("/register/step2")
+	//@PostMapping("step2")
 	public String handleStep2(
 			@RequestParam(value = "agree", defaultValue = "false") Boolean agree,
 			Model model) {

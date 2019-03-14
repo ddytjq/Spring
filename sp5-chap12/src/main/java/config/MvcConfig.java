@@ -36,6 +36,8 @@ public class MvcConfig implements WebMvcConfigurer {
 				new ResourceBundleMessageSource();
 		ms.setBasenames("message.label");
 		ms.setDefaultEncoding("UTF-8");
+		//10초마다 데이터를 업데이트 
+		ms.setCacheSeconds(10);
 		return ms;
 	}
 

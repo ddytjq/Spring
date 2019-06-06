@@ -1,4 +1,4 @@
-# Spring 5 연습
+# Spring 5 web programming
 * DI(Dependency Injection) 지원
 * AOP(Aspect-Oriented Programming) 지원
 * MVC Web Framework(Model View Controller) 지원
